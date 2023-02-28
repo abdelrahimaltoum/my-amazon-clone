@@ -1,0 +1,38 @@
+.slider{
+height:50vh;
+width:100%;
+display:flex;
+position:relative;
+overflow:hidden;
+margin-bottom:20px;
+}
+.left-arrow , .right-arrow {
+    height:50px;
+width:50px;
+background-color:black;
+border-radius:50%;
+justify-content : center;
+align-items:center;
+display:flex;
+position:absolute;
+top:0;
+bottom:0;
+margin:auto;
+cursor:pointer;
+z-index : 2;
+}
+.wrapper{
+    height:100%;
+display:flex;
+transition : all 1s ease;
+transform:translateX-100vw;
+}
+.image-container{
+    flex:1;
+height:100%;
+}
+.slide{
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px;
+}
